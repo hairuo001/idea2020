@@ -33,5 +33,7 @@ public class JedisPoolTest {
 
         //6.关闭连接池
         jedisPool.close();
+
+        //edit in version hotfix
     }
 }
