@@ -32,7 +32,7 @@ public class JedisPoolTest {
         System.out.println(jedis.get("JedisPool"));
 
         //6.关闭连接池
-        jedisPool.close();
+        jedisPool.close();// edit with hostfix to make conflict!
 
         //edit in version hotfix
     }
